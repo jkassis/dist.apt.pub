@@ -24,7 +24,7 @@ DEB package repo for jkassis's publicly distributed apps & tools.
 1. Update the manifest
 ```
 > cd dist.deb.pub
-> dpkg-scanpackages -m . > Release
+> dpkg-scanpackages -m . > Packages
 ```
 1. Commit your changes (`git commit -am 'Add some feature'`)
 1. Push to the branch (`git push origin my-new-feature`)
