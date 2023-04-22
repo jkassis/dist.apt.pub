@@ -1,0 +1,30 @@
+Package: gitall
+Version: 1.0.1
+Architecture: amd64
+Maintainer: Jeremy Kassis<jkassis@gmail.com>
+Installed-Size: 17769
+Filename: ./gitall_1.0.1_amd64.deb
+Size: 10016410
+MD5sum: 71a99d301be56e4ff6b0f956c35f8298
+SHA1: fa760a6ea2826a16d504387f57e8384ad7031b32
+SHA256: 7412f004c3397bace351d255d083e52783f2751527957b0c14255db2fe3fa712
+Section: default
+Priority: extra
+Homepage: https://github.com/jkassis/gitall
+Description: CLI to perform git operations on multiple repos at once.
+
+Package: gitall
+Version: 1.0.1
+Architecture: arm64
+Maintainer: Jeremy Kassis<jkassis@gmail.com>
+Installed-Size: 16898
+Filename: ./gitall_1.0.1_arm64.deb
+Size: 9315160
+MD5sum: c387f47b0630d00607b1930ae12789f4
+SHA1: d368f1b1b20a940b7f562e257fca41248c3a967c
+SHA256: 2f2846635258803862e6b4ff14699e2a353da22285198811ac2912e3cfaba568
+Section: default
+Priority: extra
+Homepage: https://github.com/jkassis/gitall
+Description: CLI to perform git operations on multiple repos at once.
+
