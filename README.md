@@ -1,6 +1,6 @@
 jkassis/dist.deb.pub
 =====================
-Debian package repo for jkassis's publicly distributed apps & tools.
+DEB package repo for jkassis's publicly distributed apps & tools.
 
 ## Usage
 
