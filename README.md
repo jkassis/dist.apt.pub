@@ -5,7 +5,7 @@ DEB package repo for jkassis's publicly distributed apps & tools.
 ## Usage
 
 ```
-> cat "deb [trusted=yes] https://raw.githubusercontent.com/jkassis/dist.deb.pub/master bullseye main" >> /etc/deb/sources.list
+> cat "deb [trusted=yes] https://raw.githubusercontent.com/jkassis/dist.deb.pub/main bullseye main" >> /etc/deb/sources.list
 
 > apt-get install -y gitall
 ```
