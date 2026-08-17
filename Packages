@@ -58,3 +58,33 @@ Priority: optional
 Homepage: https://github.com/jkassis/jarhead
 Description: Interactive terminal client for JarHead agent sessions
 
+Package: jarhc
+Version: 0.1.3
+Architecture: amd64
+Maintainer: Jeremy Kassis <jkassis@gmail.com>
+Depends: nodejs (>= 18)
+Filename: ./jarhc_0.1.3_amd64.deb
+Size: 78379802
+MD5sum: 42c6086470b5e1fc3f9b1823aefb3f88
+SHA1: f7854325ad86d8bf7dcc8342f5545b42315b305e
+SHA256: 4bddd07eb096a583a91f3f2f2ce8cd6340ae4c255aa2ce0f2a41388f735b6851
+Section: utils
+Priority: optional
+Homepage: https://github.com/jkassis/jarhead
+Description: Interactive terminal client for JarHead agent sessions
+
+Package: jarhc
+Version: 0.1.3
+Architecture: arm64
+Maintainer: Jeremy Kassis <jkassis@gmail.com>
+Depends: nodejs (>= 18)
+Filename: ./jarhc_0.1.3_arm64.deb
+Size: 77190024
+MD5sum: e3b194af13851b1325231d58434b4bba
+SHA1: 82aed59155eac24c901e35649be0c079006ac1e9
+SHA256: f7a32770b14fd5e8271c1d9db14820ecf86b506fe1d6884bed3c277dbac86ede
+Section: utils
+Priority: optional
+Homepage: https://github.com/jkassis/jarhead
+Description: Interactive terminal client for JarHead agent sessions
+
