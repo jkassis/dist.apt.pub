@@ -28,3 +28,33 @@ Priority: extra
 Homepage: https://github.com/jkassis/gitall
 Description: CLI to perform git operations on multiple repos at once.
 
+Package: jarhc
+Version: 0.1.2
+Architecture: arm64
+Maintainer: Jeremy Kassis <jkassis@gmail.com>
+Depends: nodejs (>= 18)
+Filename: ./jarhc_0.1.2_arm64.deb
+Size: 77192130
+MD5sum: 4b79cf23915fb18b14479cc93222b1a2
+SHA1: 74a7f500d31aad63112bd29fe874e9d2a417ea64
+SHA256: d4061bdbfbd29491f49976b25a57b86790dcc40436c61b6f4f6e56e45296ddea
+Section: utils
+Priority: optional
+Homepage: https://github.com/jkassis/jarhead
+Description: Interactive terminal client for JarHead agent sessions
+
+Package: jarhc
+Version: 0.1.2
+Architecture: amd64
+Maintainer: Jeremy Kassis <jkassis@gmail.com>
+Depends: nodejs (>= 18)
+Filename: ./jarhc_0.1.2_amd64.deb
+Size: 78438804
+MD5sum: 77266ba194ece5c70a05812280880e45
+SHA1: 42231c687252e2d684f46dce0a18c16825e5959e
+SHA256: c98ad428bed2b0ac54baade115a7b27b2bad1254f0efcdfcb9aaac449a0e2e7b
+Section: utils
+Priority: optional
+Homepage: https://github.com/jkassis/jarhead
+Description: Interactive terminal client for JarHead agent sessions
+

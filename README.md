@@ -1,19 +1,20 @@
-jkassis/dist.deb.pub
+jkassis/dist.apt.pub
 =====================
-DEB package repo for jkassis's publicly distributed apps & tools.
+APT package repository for jkassis's publicly distributed apps and tools.
 
 ## Usage
 
 ```
-> cat "deb [trusted=yes] https://raw.githubusercontent.com/jkassis/dist.deb.pub/main bullseye main" >> /etc/deb/sources.list
+> echo "deb [trusted=yes] https://raw.githubusercontent.com/jkassis/dist.apt.pub/main ./" >> /etc/apt/sources.list.d/jkassis.list
 
-> apt-get install -y gitall
+> apt-get update
+> apt-get install -y jarhc
 ```
 
 ## Packages
 
 * gitall: cli for performing git operations to multiple repos at once.
-* jerriedr: cli for performing maintenance operations on the jerrie database.
+* jarhc: terminal client for native Codex and Claude agent runtimes.
 
 
 ## Contributing
@@ -23,7 +24,7 @@ DEB package repo for jkassis's publicly distributed apps & tools.
 1. Add your package
 1. Update the manifest
 ```
-> cd dist.deb.pub
+> cd dist.apt.pub
 > dpkg-scanpackages -m . > Packages
 ```
 1. Commit your changes (`git commit -am 'Add some feature'`)
