@@ -8,13 +8,13 @@ APT package repository for jkassis's publicly distributed apps and tools.
 > echo "deb [trusted=yes] https://raw.githubusercontent.com/jkassis/dist.apt.pub/main ./" >> /etc/apt/sources.list.d/jkassis.list
 
 > apt-get update
-> apt-get install -y jarhc
+> apt-get install -y jarhead
 ```
 
 ## Packages
 
 * gitall: cli for performing git operations to multiple repos at once.
-* jarhc: terminal client for native Codex and Claude agent runtimes.
+* jarhead: terminal frontend for native Codex, Claude, and JarAgent runtimes.
 
 
 ## Contributing
